@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-angular_nest",
+  "version": "1.0.0",
+  "scripts": {
+    "start:frontend": "cd frontend && ng serve",
+    "start:backend": "cd backend && npm run start:dev",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "build:frontend": "cd frontend && ng build",
+    "build:backend": "cd backend && npm run build",
+    "lint:frontend": "cd frontend && ng lint",
+    "lint:backend": "cd backend && npm run lint",
+    "test:frontend": "cd frontend && ng test",
+    "test:backend": "cd backend && npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "private": true
+}

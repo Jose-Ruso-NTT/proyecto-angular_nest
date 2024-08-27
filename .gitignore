@@ -1,0 +1,23 @@
+# Ignorar node_modules en cualquier nivel del proyecto
+**/node_modules/
+
+# Ignorar directorios de construcción
+**/dist/
+**/build/
+
+# Ignorar archivos de entorno
+**/.env
+**/.env.local
+
+# Ignorar logs
+**/logs/
+*.log
+
+# Ignorar archivos de cache de dependencia
+**/package-lock.json
+**/yarn.lock
+
+# Ignorar directorios de editores/IDE
+.vscode/
+.idea/
+*.sublime-workspace
